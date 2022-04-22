@@ -21,8 +21,8 @@ function parseHexStr(hexStr) {
     if (hexStr.length === 6) {
         return [
             parseInt(hexStr.slice(0, 2), 16),
-            parseInt(hexStr.slice(3, 5), 16),
-            parseInt(hexStr.slice(6, 8), 16)
+            parseInt(hexStr.slice(2, 4), 16),
+            parseInt(hexStr.slice(4, 6), 16)
         ]
     }
 
