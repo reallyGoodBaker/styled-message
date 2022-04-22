@@ -1,0 +1,15 @@
+{
+  "name": "styled-message",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test"
+  },
+  "author": "reallyGoodBaker",
+  "license": "MIT",
+  "types": "./index.d.ts"
+}
