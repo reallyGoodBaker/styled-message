@@ -87,7 +87,7 @@ class Message {
         return this
     }
 
-    outline() {
+    underline() {
         this.styles.push(4)
         return this
     }

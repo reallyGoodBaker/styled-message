@@ -16,7 +16,7 @@ interface Message {
 
     flicker(): this;
 
-    outline(): this;
+    underline(): this;
 
     italic(): this;
 
